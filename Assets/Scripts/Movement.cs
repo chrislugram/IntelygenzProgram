@@ -5,8 +5,6 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     #region Variables
-    public float inputX = 0;
-    public float inputZ = 0;
     public Vector3 moveDirection;
 
     [SerializeField]
@@ -25,7 +23,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.localPosition += moveDirection * speed * Time.deltaTime;//new Vector3(inputX, 0, inputZ) * speed * Time.deltaTime;
+        transform.localPosition += moveDirection * speed * Time.deltaTime;
     }
     #endregion
 

@@ -45,15 +45,6 @@ public class CubeAgent : Agent
     {
         movement.moveDirection = new Vector3(actions.ContinuousActions[0], 0, actions.ContinuousActions[1]);
 
-        //int move = actions.DiscreteActions[0];
-        //Vector3 directionMove = new Vector3(0, 0, 0);
-        //if (move == 1) { directionMove.x = 1; }
-        //if (move == 2) { directionMove.x = -1; }
-        //if (move == 3) { directionMove.z = 1; }
-        //if (move == 4) { directionMove.z = -1; }
-
-        //movement.moveDirection = directionMove;
-
         CheckContinuosReward();
     }
 
@@ -63,25 +54,6 @@ public class CubeAgent : Agent
 
         continuousActions[0] = Input.GetAxis("Horizontal");
         continuousActions[1] = Input.GetAxis("Vertical");
-
-        //ActionSegment<int> discreteActions = actionsOut.DiscreteActions;
-
-        //if (Input.GetKey(KeyCode.D))
-        //{
-        //    discreteActions[0] = 1;
-        //}
-        //else if (Input.GetKey(KeyCode.A))
-        //{
-        //    discreteActions[0] = 2;
-        //}
-        //else if (Input.GetKey(KeyCode.W))
-        //{
-        //    discreteActions[0] = 3;
-        //}
-        //else if (Input.GetKey(KeyCode.S))
-        //{
-        //    discreteActions[0] = 4;
-        //}
     }
     #endregion
 

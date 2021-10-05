@@ -20,8 +20,7 @@ public class HumanInput : MonoBehaviour
     {
         if (movement != null)
         {
-            movement.inputX = Input.GetAxis("Horizontal");
-            movement.inputZ = Input.GetAxis("Vertical");
+            movement.moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         }
     }
     #endregion
