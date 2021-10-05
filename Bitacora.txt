@@ -1,0 +1,15 @@
+1.- Instalar Unity editor
+2.- Crear proyecto vacio
+3.- Crear escena
+	3.1- Scene y jerarquía de carpetas
+	3.2- GameObject e Inspector
+	3.3- Herramientas de edicion
+	3.4- Colliders
+	3.5- Mesh renderer y materiales
+	3.6- MonoBehaviour
+4.- Instalacion ml-agents package
+	4.1- Package desde local, descargar y añadir
+	4.2- Crear el agente
+	4.3- Observaciones y reward
+	4.4- Decision Requestor y Behavior Parameters
+5.- Creación de env
