@@ -13,3 +13,6 @@
 	4.3- Observaciones y reward
 	4.4- Decision Requestor y Behavior Parameters
 5.- Creación de env
+	5.1- Instalación del paquete de python
+	5.2- Correr entrenamiento y config
+	5.3- Resultados tensorboard
